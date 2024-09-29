@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import ChildComponent from './_component/childComponent';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
           <li><Link href="/photos/2/3">사진 2,3</Link></li>
         </ul>
       </nav>
+      <ChildComponent />
     </div>
   )
 }
